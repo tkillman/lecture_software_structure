@@ -2,13 +2,13 @@
 import java.util.ArrayList;
 
 public class WeatherData implements Subject {
-    private ArrayList<Observer2> observers;
+    final private ArrayList<Observer2> observers;
     private float temperature;
     private float humidity;
     private float pressure;
 
     public WeatherData() {
-        observers = new ArrayList();
+        observers = new ArrayList<>();
     }
 
     @Override

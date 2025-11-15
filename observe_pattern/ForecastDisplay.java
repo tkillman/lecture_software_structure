@@ -9,6 +9,7 @@ public class ForecastDisplay implements Observer2, DisplayElement {
         weatherData.registerObserver(this);
     }
 
+    @Override
     public void update(float temperature, float humidity, float pressure) {
         this.temperature = temperature;
         this.humidity = humidity;
@@ -16,6 +17,7 @@ public class ForecastDisplay implements Observer2, DisplayElement {
         display();
     }
 
+    @Override
     public void display() {
         System.out.println("Forcast:" + "Improving weather on the way!");
     }

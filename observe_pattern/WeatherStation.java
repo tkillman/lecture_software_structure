@@ -18,6 +18,7 @@ public class WeatherStation {
         weatherData.removeObserver(statisticsDisplay);
         weatherData.setMeasurements(75, 80, 29.5f);
 
+        weatherData.removeObserver(currentDisplay);
         // weatherData.removeObserver(forecastDisplay);
         // weatherData.setMeasurements(85, 70, 30.0f);
 
