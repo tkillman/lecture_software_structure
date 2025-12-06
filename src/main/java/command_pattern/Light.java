@@ -1,6 +1,6 @@
 
 public class Light {
-    private String location;
+    private final String location;
 
     public Light(String location) {
         this.location = location;

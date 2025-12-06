@@ -1,14 +1,14 @@
 package main.java.cor_pattern;
 
-public class President extends Handler {
+public class President extends Approver {
 
-    @Override
-    public void handleRequest(String request) {
-        if (request.equals("President")) {
-            System.out.println("President handled the request.");
-        } else {
-            super.handleRequest(request);
-        }
+    private final double ALLOWABLE = 40 * base;
+
+    public void processRequest(PurchaseRequest request) {
+        if (request.getAmount() < ALLOWABLE) {
+            System.out.println("Manager will approve $" +
+                    request.getAmount());
+        } else if (successor != null)
+            successor.processRequest(request);
     }
-
 }

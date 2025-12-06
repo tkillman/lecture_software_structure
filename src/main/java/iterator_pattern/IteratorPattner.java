@@ -5,7 +5,9 @@ public class IteratorPattner {
         System.out.println("Iterator Pattern Example");
 
         DinerMenu dinerMenu = new DinerMenu();
-        Waitress waitress = new Waitress(dinerMenu);
+        CafeMenu cafeMenu = new CafeMenu();
+
+        Waitress waitress = new Waitress(cafeMenu, dinerMenu);
         waitress.printMenu();
 
     }

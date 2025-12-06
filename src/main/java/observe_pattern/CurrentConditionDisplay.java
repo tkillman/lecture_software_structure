@@ -1,15 +1,20 @@
 package main.java.observe_pattern;
+
 public class CurrentConditionDisplay implements Observer2, DisplayElement {
     private float temperature;
     private float humidity;
     private float pressure;
-    private Subject weatherData;
+    private final Subject weatherData;
 
     public CurrentConditionDisplay(Subject weatherData) {
         this.weatherData = weatherData;
+    }
+
+    public void initialize() {
         weatherData.registerObserver(this);
     }
 
+    @Override
     public void update(float temperature, float humidity, float pressure) {
         this.temperature = temperature;
         this.humidity = humidity;
@@ -17,8 +22,9 @@ public class CurrentConditionDisplay implements Observer2, DisplayElement {
         display();
     }
 
+    @Override
     public void display() {
         System.out.println("Current conditions: " + temperature
-                + "F degrees and " + humidity + "% humidity");
+                + "F degrees and " + humidity + "% humidity" + pressure + " pressure" + weatherData);
     }
 }

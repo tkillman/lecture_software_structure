@@ -10,10 +10,15 @@ public class CorPattern {
         manager.setSuccessor(director);
         director.setSuccessor(vp);
         vp.setSuccessor(president);
+
         while (true) {
             double d = GetAmount2GetApproved();
-            manager.processRequest(new PurchaseRequest(0, d, "General"));
+            manager.processRequest(new PurchaseRequest(0, d));
         }
 
+    }
+
+    private static double GetAmount2GetApproved() {
+        return Math.random() * 10000;
     }
 }
