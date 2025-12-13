@@ -1,6 +1,5 @@
 {
     "editor.formatOnSave": true,
-    "[java]": {
-        "editor.defaultFormatter": "redhat.java"
-    }
+    "java.project.sourcePaths": ["src/main/java"],
+    "editor.defaultFormatter": "Oracle.oracle-java"
 }
