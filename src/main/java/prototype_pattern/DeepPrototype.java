@@ -1,4 +1,7 @@
+package prototype_pattern;
+
 class DeepPrototype implements Prototype<DeepPrototype> {
+
     int x = 10;
     Nested ref = new Nested(100);
 

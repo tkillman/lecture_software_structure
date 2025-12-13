@@ -1,4 +1,4 @@
-package main.java.template_pattern;
+package template_pattern;
 
 public class Coffee extends CaffeineBeverage {
 
@@ -8,7 +8,6 @@ public class Coffee extends CaffeineBeverage {
     // pourInCup();
     // addSugarAndMilk();
     // }
-
     @Override
     public void boilWater() {
         System.out.println("Boiling water");

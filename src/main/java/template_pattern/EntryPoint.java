@@ -1,4 +1,4 @@
-package main.java.template_pattern;
+package template_pattern;
 
 public class EntryPoint {
 

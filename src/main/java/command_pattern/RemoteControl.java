@@ -1,4 +1,7 @@
+package command_pattern;
+
 public class RemoteControl {
+
     Command[] oncommands;
     Command[] offcommands;
 

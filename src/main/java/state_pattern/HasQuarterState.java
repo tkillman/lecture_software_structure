@@ -1,8 +1,9 @@
-package main.java.state_pattern;
+package state_pattern;
 
 import java.util.Random;
 
 public class HasQuarterState implements State {
+
     GumballMachine gumballMachine;
     Random randomWinner = new Random(System.currentTimeMillis());
 

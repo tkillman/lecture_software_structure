@@ -1,6 +1,9 @@
+package factory_pattern;
+
 import java.util.ArrayList;
 
 public abstract class Pizza {
+
     String name;
     String dough;
     String sauce;
@@ -23,8 +26,9 @@ public abstract class Pizza {
         System.out.println("Tossing dough...");
         System.out.println("Adding sauce...");
         System.out.println("Adding toppings: ");
-        for (int i = 0; i < toppings.size(); i++)
+        for (int i = 0; i < toppings.size(); i++) {
             System.out.println("  " + toppings.get(i));
+        }
     }
 
     void bake() {

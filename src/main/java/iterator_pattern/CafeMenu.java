@@ -1,9 +1,10 @@
-package main.java.iterator_pattern;
+package iterator_pattern;
 
 import java.util.Hashtable;
 import java.util.Iterator;
 
 public class CafeMenu implements Menu {
+
     Hashtable menuItems = new Hashtable();
 
     public void addItem(String name, String desc, boolean vegetarian, double price) {

@@ -1,5 +1,7 @@
+package command_pattern;
 
 public class Light {
+
     private final String location;
 
     public Light(String location) {

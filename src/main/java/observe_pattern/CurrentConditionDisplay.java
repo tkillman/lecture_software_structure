@@ -1,6 +1,7 @@
-package main.java.observe_pattern;
+package observe_pattern;
 
 public class CurrentConditionDisplay implements Observer2, DisplayElement {
+
     private float temperature;
     private float humidity;
     private float pressure;

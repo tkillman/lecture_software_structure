@@ -1,4 +1,4 @@
-package main.java.state_pattern;
+package state_pattern;
 
 public interface State {
 

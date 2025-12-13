@@ -1,12 +1,14 @@
-package main.java.template_pattern;
+package template_pattern;
 
 public abstract class CaffeineBeverage {
+
     final void prepareRecipe() {
         boilWater();
         brew();
         pourInCup();
-        if (customerWantsCondiments())
+        if (customerWantsCondiments()) {
             addCondiments();
+        }
     }
 
     abstract void brew();

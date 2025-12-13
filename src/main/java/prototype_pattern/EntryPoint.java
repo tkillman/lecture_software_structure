@@ -1,6 +1,7 @@
-package main.java.prototype_pattern;
+package prototype_pattern;
 
 public class EntryPoint {
+
     public static void main(String[] args) {
         System.out.println("hi");
         Cloneable prototype = new ShallowPrototype();

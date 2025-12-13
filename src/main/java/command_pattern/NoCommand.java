@@ -1,4 +1,7 @@
+package command_pattern;
+
 public class NoCommand implements Command {
+
     @Override
     public void execute() {
         // Do nothing

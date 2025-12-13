@@ -1,6 +1,7 @@
-package main.java.observe_pattern;
+package observe_pattern;
 
 public class EntryPoint {
+
     public static void main(String[] args) {
         WeatherData weatherData = new WeatherData();
         CurrentConditionDisplay currentDisplay = new CurrentConditionDisplay(weatherData);

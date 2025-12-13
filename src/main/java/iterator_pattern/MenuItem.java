@@ -1,4 +1,4 @@
-package main.java.iterator_pattern;
+package iterator_pattern;
 
 public class MenuItem {
 

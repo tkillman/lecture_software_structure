@@ -1,4 +1,6 @@
-package main.java.observe_pattern;
+package observe_pattern;
+
 public interface DisplayElement {
+
     public void display();
 }

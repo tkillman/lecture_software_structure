@@ -1,6 +1,7 @@
-package main.java.state_pattern;
+package state_pattern;
 
 public class GumballMachine {
+
     State soldOutState;
     State noQuarterState;
     State hasQuarterState;

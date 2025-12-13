@@ -1,4 +1,4 @@
-package main.java.cor_pattern;
+package cor_pattern;
 
 public class President extends Approver {
 

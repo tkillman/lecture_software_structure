@@ -1,6 +1,7 @@
-package main.java.iterator_pattern;
+package iterator_pattern;
 
 public class DinerMenuIterator implements java.util.Iterator<MenuItem> {
+
     MenuItem[] items;
     int position = 0;
 

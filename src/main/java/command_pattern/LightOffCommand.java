@@ -1,3 +1,5 @@
+package command_pattern;
+
 public class LightOffCommand implements Command {
 
     Light light;

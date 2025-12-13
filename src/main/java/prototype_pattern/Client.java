@@ -1,6 +1,7 @@
-package main.java.prototype_pattern;
+package prototype_pattern;
 
 public class Client {
+
     private Prototype prototype = new Prototype();
 
     public void op() {

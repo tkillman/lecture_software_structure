@@ -1,4 +1,7 @@
+package factory_pattern;
+
 public class PizzaStore {
+
     SimplePizzaFactory factory;
 
     public PizzaStore(SimplePizzaFactory factory) {

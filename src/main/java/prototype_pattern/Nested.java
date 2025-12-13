@@ -1,6 +1,7 @@
-package main.java.prototype_pattern;
+package prototype_pattern;
 
 class Nested implements Cloneable {
+
     int data;
 
     public Nested(int data) {

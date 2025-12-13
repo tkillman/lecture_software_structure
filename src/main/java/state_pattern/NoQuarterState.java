@@ -1,6 +1,7 @@
-package main.java.state_pattern;
+package state_pattern;
 
 public class NoQuarterState implements State {
+
     GumballMachine gumballMachine;
 
     public NoQuarterState(GumballMachine gumballMachine) {

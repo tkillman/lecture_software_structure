@@ -1,3 +1,5 @@
+package factory_pattern;
+
 public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
 
     @Override

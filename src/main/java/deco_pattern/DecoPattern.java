@@ -1,4 +1,4 @@
-package main.java.deco_pattern;
+package deco_pattern;
 
 public class DecoPattern {
 

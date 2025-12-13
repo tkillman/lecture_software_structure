@@ -1,4 +1,4 @@
-package main.java.cor_pattern;
+package cor_pattern;
 
 abstract class Approver {
     protected final double base = 500;
