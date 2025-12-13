@@ -8,6 +8,7 @@ public class Tea extends CaffeineBeverage {
     // addLemon();
     // }
 
+    @Override
     public void boilWater() {
         System.out.println("Boiling water");
     }
@@ -16,6 +17,7 @@ public class Tea extends CaffeineBeverage {
         System.out.println("Steeping the tea");
     }
 
+    @Override
     public void pourInCup() {
         System.out.println("Pouring into cup");
     }
@@ -24,10 +26,12 @@ public class Tea extends CaffeineBeverage {
         System.out.println("Adding Lemon");
     }
 
+    @Override
     public void brew() {
         System.out.println("Steeping the tea");
     }
 
+    @Override
     public void addCondiments() {
         System.out.println("Adding Lemon");
     }

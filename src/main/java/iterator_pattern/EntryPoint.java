@@ -1,6 +1,6 @@
 package main.java.iterator_pattern;
 
-public class IteratorPattner {
+public class EntryPoint {
     public static void main(String[] args) {
         System.out.println("Iterator Pattern Example");
 

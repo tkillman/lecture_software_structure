@@ -1,4 +1,4 @@
-public class PizzaTestDrive {
+public class EntryPoint {
     public static void main(String[] args) {
 
         PizzaStore nyStore = new NYPizzaStore();

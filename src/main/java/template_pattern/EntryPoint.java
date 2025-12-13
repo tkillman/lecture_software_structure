@@ -1,6 +1,6 @@
 package main.java.template_pattern;
 
-public class BeverageStart {
+public class EntryPoint {
 
     public static void main(String[] args) {
         CaffeineBeverage tea = new Tea();

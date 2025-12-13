@@ -1,6 +1,6 @@
 package main.java.cor_pattern;
 
-public class CorPattern {
+public class EntryPoint {
     public static void main(String[] args) {
         System.out.println("Chain of Responsibility Pattern Example");
         Manager manager = new Manager();

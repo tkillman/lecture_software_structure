@@ -1,6 +1,6 @@
 package main.java.state_pattern;
 
-public class Start {
+public class EntryPoint {
     public static void main(String[] args) {
 
         GumballMachine gumballMachine = new GumballMachine(50);

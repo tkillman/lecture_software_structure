@@ -1,4 +1,5 @@
 package main.java.observe_pattern;
+
 public class ForecastDisplay implements Observer2, DisplayElement {
     private float temperature;
     private float humidity;
@@ -7,6 +8,9 @@ public class ForecastDisplay implements Observer2, DisplayElement {
 
     public ForecastDisplay(Subject weatherData) {
         this.weatherData = weatherData;
+    }
+
+    public void initialize() {
         weatherData.registerObserver(this);
     }
 

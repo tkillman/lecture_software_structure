@@ -9,6 +9,7 @@ public class Coffee extends CaffeineBeverage {
     // addSugarAndMilk();
     // }
 
+    @Override
     public void boilWater() {
         System.out.println("Boiling water");
     }
@@ -17,6 +18,7 @@ public class Coffee extends CaffeineBeverage {
         System.out.println("Dripping Coffee through filter");
     }
 
+    @Override
     public void pourInCup() {
         System.out.println("Pouring into cup");
     }

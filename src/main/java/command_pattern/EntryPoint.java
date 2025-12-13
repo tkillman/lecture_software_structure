@@ -1,4 +1,4 @@
-public class RemoteLoader {
+public class EntryPoint {
     public static void main(String[] args) {
         // create invoker
         RemoteControl remoteControl = new RemoteControl();
