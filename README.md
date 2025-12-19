@@ -66,4 +66,21 @@ DIP (Dependency Inversion Principle)
 Prototype 패턴은 기존 객체를 복제하여 새로운 객체를 생성함으로써, 생성 비용을 줄이고 객체 생성 과정을 단순화한다.
 java의 clone은 기본적으로 얕은복사이므로 깊은 복사는 명시적으로 구현
 
-* s13 
+* s13 decorator pattern <br/>
+객체에 기능을 동적으로 추가하기 위해, 상속 대신 합성을 사용하는 패턴 <br/>
+기능을 객체로 감싸서, 필요한 만큼 겹쳐 붙이자 <br/>
+
+상속만으로 처리할 때 <br/>
+클래스 수 폭발 <br/>
+조합 추가할 때마다 클래스 추가 <br/>
+런타임 조합 불가 <br/>
+OCP 위반 <br/>
+![image](./img/s13_deco_img2.PNG)
+
+Decorator를 써야 하는 신호 <br/>
+기능 조합이 많을 때 <br/>
+기능을 런타임에 붙였다 뗐다 해야 할 때 <br/>
+상속 계층이 비대해질 때 <br/>
+기존 클래스 수정 없이 기능 확장 필요 <br/>
+
+![image](./img/s13_deco_img.PNG)

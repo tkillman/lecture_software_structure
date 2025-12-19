@@ -1,4 +1,4 @@
-package prototype_pattern;
+package s12_prototype_pattern;
 
 class ShallowPrototype implements Cloneable {
 

@@ -1,4 +1,4 @@
-package deco_pattern;
+package s13_deco_pattern;
 
 public class DecoPattern {
 
