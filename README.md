@@ -46,3 +46,8 @@ DIP (Dependency Inversion Principle)
 고차원 컴포넌트가 저차원 컴포넌트에 의존적이면 어떻게 할지가 변경되면 코드 수정이 많아진다. <br/>
 예를 들어 db가 oracle에서 mysql로 바뀌면 service 레이어도 다 바뀌어야 함
 ![image](./img/s08_factory_img.PNG)
+
+* S08 mediator 중재자 패턴 <br/>
+객체들 간의 복잡한 상호작용을 하나의 중재 객체로 모아 결합도를 낮추는 패턴 <br/>
+![image](./img/s09_mediator_img.PNG)
+
