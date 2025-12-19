@@ -57,3 +57,7 @@ DIP (Dependency Inversion Principle)
 대부분 옵션1 Synchronized 메소드만으로 충분. 옵션3까지 가면 부하
 ![image](./img/s10_singleton_img.PNG)
 ![image](./img/s10_singleton_img2.PNG)
+
+* s11 builder 패턴 <br/>
+복잡한 객체를 단계적으로 생성하고, 생성 과정과 표현을 분리하는 패턴
+![image](./img/s11_builder_img.PNG)
