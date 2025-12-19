@@ -1,4 +1,4 @@
-package state_pattern;
+package s05_state_pattern;
 
 public class SoldState implements State {
 

@@ -10,7 +10,7 @@ ex) 결제방식
 
 * Command 패턴 <br/>
 커맨드 패턴은 요청을 객체로 만들어 실행자와 수행자를 분리한다.
-![image](./img/s03_command.PNG)
+![image](./img/s03_command_img.PNG)
 
 * Template 패턴 <br/>
 이미 순서를 가진 객체를 관리 <br/>
