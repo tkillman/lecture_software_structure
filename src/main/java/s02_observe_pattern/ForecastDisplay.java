@@ -1,4 +1,4 @@
-package observe_pattern;
+package s02_observe_pattern;
 
 public class ForecastDisplay implements Observer2, DisplayElement {
 
@@ -9,6 +9,7 @@ public class ForecastDisplay implements Observer2, DisplayElement {
 
     public ForecastDisplay(Subject weatherData) {
         this.weatherData = weatherData;
+        initialize();
     }
 
     public void initialize() {

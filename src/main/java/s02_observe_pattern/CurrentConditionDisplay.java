@@ -1,14 +1,15 @@
-package observe_pattern;
+package s02_observe_pattern;
 
-public class StatisticsDisplay implements Observer2, DisplayElement {
+public class CurrentConditionDisplay implements Observer2, DisplayElement {
 
     private float temperature;
     private float humidity;
     private float pressure;
-    private Subject weatherData;
+    private final Subject weatherData;
 
-    public StatisticsDisplay(Subject weatherData) {
+    public CurrentConditionDisplay(Subject weatherData) {
         this.weatherData = weatherData;
+        initialize();
     }
 
     public void initialize() {
@@ -25,7 +26,7 @@ public class StatisticsDisplay implements Observer2, DisplayElement {
 
     @Override
     public void display() {
-        System.out.println("Avg/Max/Min temperature = " + temperature + "/"
-                + humidity + "/" + pressure);
+        System.out.println("Current conditions: " + temperature
+                + "F degrees and " + humidity + "% humidity" + pressure + " pressure" + weatherData);
     }
 }

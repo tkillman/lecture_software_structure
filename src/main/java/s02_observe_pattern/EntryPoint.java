@@ -1,4 +1,4 @@
-package observe_pattern;
+package s02_observe_pattern;
 
 public class EntryPoint {
 
