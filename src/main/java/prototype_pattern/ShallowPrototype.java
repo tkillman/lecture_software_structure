@@ -1,6 +1,6 @@
 package prototype_pattern;
 
-class ShallowPrototype implements Prototype<ShallowPrototype> {
+class ShallowPrototype implements Cloneable {
 
     int x = 10;
     Nested ref = new Nested(100);

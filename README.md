@@ -61,3 +61,9 @@ DIP (Dependency Inversion Principle)
 * s11 builder 패턴 <br/>
 복잡한 객체를 단계적으로 생성하고, 생성 과정과 표현을 분리하는 패턴
 ![image](./img/s11_builder_img.PNG)
+
+* s12 prototype pattern <br/>
+Prototype 패턴은 기존 객체를 복제하여 새로운 객체를 생성함으로써, 생성 비용을 줄이고 객체 생성 과정을 단순화한다.
+java의 clone은 기본적으로 얕은복사이므로 깊은 복사는 명시적으로 구현
+
+* s13 

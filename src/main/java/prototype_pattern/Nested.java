@@ -4,12 +4,11 @@ class Nested implements Cloneable {
 
     int data;
 
-    public Nested(int data) {
-        this.data = data;
+    public Nested() {
     }
 
-    public void op() {
-        System.out.println("Nested op: " + data);
+    public Nested(int data) {
+        this.data = data;
     }
 
     @Override
