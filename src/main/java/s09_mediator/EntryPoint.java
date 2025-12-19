@@ -1,4 +1,4 @@
-package s08_mediator;
+package s09_mediator;
 
 public class EntryPoint {
     public static void main(String[] args) {

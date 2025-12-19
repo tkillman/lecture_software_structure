@@ -1,4 +1,4 @@
-package s08_mediator;
+package s09_mediator;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -51,3 +51,9 @@ DIP (Dependency Inversion Principle)
 객체들 간의 복잡한 상호작용을 하나의 중재 객체로 모아 결합도를 낮추는 패턴 <br/>
 ![image](./img/s09_mediator_img.PNG)
 
+
+* s10 singleton 패턴 <br/>
+멀티 쓰레드의 경우 중복될 수 있는 경우가 있어서 옵션3까지 존재하지만
+대부분 옵션1 Synchronized 메소드만으로 충분. 옵션3까지 가면 부하
+![image](./img/s10_singleton_img.PNG)
+![image](./img/s10_singleton_img2.PNG)
