@@ -1,4 +1,4 @@
-package iterator_pattern;
+package s06_iterator_pattern;
 
 public class EntryPoint {
 
