@@ -27,3 +27,7 @@ Strategy pattern과 유사하다.
 * S06 iterator 패턴<br/>
 컬렉션의 내부 구조를 노출하지 않고, 요소를 순차적으로 접근하게 해주는 패턴
 ![image](./img/s06_iterator_img.PNG)
+
+* S07 Cor(Chain of Responsibility Pattern) 패턴
+CoR 패턴은 요청을 체인으로 전달하며 처리 책임을 분산한다.
+![image](./img/s07_cor_img.PNG)

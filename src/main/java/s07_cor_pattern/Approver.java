@@ -1,4 +1,4 @@
-package cor_pattern;
+package s07_cor_pattern;
 
 abstract class Approver {
     protected final double base = 500;
