@@ -1,4 +1,4 @@
-package template_pattern;
+package s04_template_pattern;
 
 public class Tea extends CaffeineBeverage {
     // void prepareRecipe() {

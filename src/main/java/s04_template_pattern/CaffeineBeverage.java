@@ -1,4 +1,4 @@
-package template_pattern;
+package s04_template_pattern;
 
 public abstract class CaffeineBeverage {
 
