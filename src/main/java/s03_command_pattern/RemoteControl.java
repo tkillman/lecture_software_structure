@@ -1,4 +1,4 @@
-package command_pattern;
+package s03_command_pattern;
 
 public class RemoteControl {
 
