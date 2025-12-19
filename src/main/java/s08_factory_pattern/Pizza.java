@@ -1,4 +1,4 @@
-package factory_pattern;
+package s08_factory_pattern;
 
 import java.util.ArrayList;
 

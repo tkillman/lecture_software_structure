@@ -31,3 +31,18 @@ Strategy pattern과 유사하다.
 * S07 Cor(Chain of Responsibility Pattern) 패턴
 CoR 패턴은 요청을 체인으로 전달하며 처리 책임을 분산한다.
 ![image](./img/s07_cor_img.PNG)
+
+* S08 Factory_pattern <br/>
+객체 생성을 서브클래스에 위임하는 패턴. 어떤 객체를 만들지는 하위 클래스가 결정한다<br/>
+✔ 어떤 객체를 생성할지 상위 클래스가 몰라도 될 때 <br/>
+✔ 객체 생성 로직이 바뀔 가능성이 있을 때 <br/>
+✔ 생성 책임을 한 곳에 모으고 싶을 때 <br/>
+✔ new가 고차원 로직에 흩어지기 시작할 때 <br/>
+Abstract Factory 패턴 <br/>
+관련된 객체들의 “제품군”을 생성하는 인터페이스를 제공하는 패턴 <br/>
+DIP (Dependency Inversion Principle)
+고차원 컴포넌트 === 무엇을 할지 === service === import 하는쪽 <br/>
+저차원 컴포넌트 === 어떻게 할지 === repository === import 당하는쪽 <br/>
+고차원 컴포넌트가 저차원 컴포넌트에 의존적이면 어떻게 할지가 변경되면 코드 수정이 많아진다. <br/>
+예를 들어 db가 oracle에서 mysql로 바뀌면 service 레이어도 다 바뀌어야 함
+![image](./img/s08_factory_img.PNG)

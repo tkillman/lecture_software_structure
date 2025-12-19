@@ -1,3 +1,5 @@
+package s08_factory_pattern;
+
 public class SimplePizzaFactory {
 
     public Pizza createPizza(String type) {

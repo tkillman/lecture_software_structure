@@ -1,3 +1,4 @@
+package s08_factory_pattern;
 public class VeggiePizza extends Pizza {
     private PizzaIngredientFactory ingredientFactory;
 

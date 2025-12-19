@@ -1,5 +1,5 @@
 {
     "editor.formatOnSave": true,
     "java.project.sourcePaths": ["src/main/java"],
-    "editor.defaultFormatter": "Oracle.oracle-java"
+    "editor.defaultFormatter": null
 }
